@@ -1,9 +1,9 @@
-const FOOTER_ITEMS = ['Performance', 'Craftsmanship', 'Expression'];
+import siteData from '../../data/site.json';
 
 export default function HeroFooter() {
   return (
     <div className="hero-footer">
-      {FOOTER_ITEMS.map((item) => (
+      {siteData.hero.footerItems.map((item) => (
         <div key={item} className="overflow-hidden">
           <p>{item}</p>
         </div>

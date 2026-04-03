@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "name": "Grobots",
+    "tagline": "Precision Robotics"
+  },
+  "hero": {
+    "title": "Grobots",
+    "unicornProjectId": "gK3lOic9aLAOUfbUjBXK",
+    "unicornSdkUrl": "https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.1.6/dist/unicornStudio.umd.js",
+    "footerItems": ["Performance", "Craftsmanship", "Expression"]
+  },
+  "navbar": {
+    "links": [
+      { "label": "About",        "href": "/#about"      },
+      { "label": "Projects",     "href": "/#projects"   },
+      { "label": "Achievements", "href": "/#achievements"},
+      { "label": "Team",         "href": "/team"        }
+    ]
+  },
+  "footer": {
+    "phone": "+91 98765 43210",
+    "email": "grobotsclub@gmail.com",
+    "links": [
+      { "label": "About",        "href": "/#about"      },
+      { "label": "Projects",     "href": "/#projects"   },
+      { "label": "Achievements", "href": "/#achievements"},
+      { "label": "Team",         "href": "/team"        }
+    ],
+    "social": [
+      { "label": "Instagram", "href": "#" },
+      { "label": "LinkedIn",  "href": "#" }
+    ]
+  },
+  "teamPreview": {
+    "featuredBatch": "2026",
+    "label": "[ Meet The Team ]",
+    "cta": { "label": "[ View All → ]", "href": "/team" }
+  },
+  "achievements": {
+    "label": "Achievements"
+  }
+}

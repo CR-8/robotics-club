@@ -1,21 +1,20 @@
 import { type RefObject } from 'react';
 import UnicornScene from 'unicornstudio-react';
 import HeroFooter from './heroFooter';
+import siteData from '../../data/site.json';
 
 interface HeroProps {
   bgRef: RefObject<HTMLDivElement | null>;
 }
 
-const TITLE = 'Grobots';
-const SDK_URL = 'https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.1.6/dist/unicornStudio.umd.js';
-
 export default function Hero({ bgRef }: HeroProps) {
+  const { title, unicornProjectId, unicornSdkUrl } = siteData.hero;
   return (
     <section className="hero">
       <div ref={bgRef} className="hero-bg">
         <UnicornScene
-          projectId="gK3lOic9aLAOUfbUjBXK"
-          sdkUrl={SDK_URL}
+          projectId={unicornProjectId}
+          sdkUrl={unicornSdkUrl}
           width="100%"
           height="100%"
           lazyLoad={false}
@@ -26,7 +25,7 @@ export default function Hero({ bgRef }: HeroProps) {
       </div>
       <div className="header">
         <h1>
-          {TITLE.split('').map((char, i) => (
+          {title.split('').map((char, i) => (
             <span key={i} className="overflow-hidden" style={{ display: 'inline-block' }}>
               <span className="char">{char}</span>
             </span>

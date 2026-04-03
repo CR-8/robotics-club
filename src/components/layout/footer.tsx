@@ -1,60 +1,42 @@
 import { ArrowSquareOut } from '@phosphor-icons/react';
-
-const NAV_LINKS = ['Index', 'Collection', 'Projects', 'Process', 'Info'];
-const SOCIAL_LINKS = [
-  { label: 'Instagram', href: '#' },
-  { label: 'LinkedIn',  href: '#' },
-  { label: 'Twitter',   href: '#' },
-];
+import { Link } from 'react-router-dom';
+import siteData from '../../data/site.json';
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const { phone, email, links, social } = siteData.footer;
 
   return (
     <footer className="footer">
-      {/* Top row */}
       <div className="footer__top">
-        {/* Contact */}
         <div className="footer__contact">
-          <span className="footer__phone">+91 98765 43210</span>
-          <a href="mailto:hello@grobots.in" className="footer__email">
-            hello@grobots.in
-          </a>
+          <span className="footer__phone">{phone}</span>
+          <a href={`mailto:${email}`} className="footer__email">{email}</a>
         </div>
-
-        {/* Nav + Social */}
         <div className="footer__links">
           <div className="footer__col">
             <span className="footer__col-label">Navigate</span>
-            {NAV_LINKS.map((l) => (
-              <a key={l} href="#" className="footer__link">{l}</a>
+            {links.map((l) => (
+              l.href.startsWith('/#')
+                ? <a key={l.label} href={l.href} className="footer__link">{l.label}</a>
+                : <Link key={l.label} to={l.href} className="footer__link">{l.label}</Link>
             ))}
           </div>
           <div className="footer__col">
             <span className="footer__col-label">Social</span>
-            {SOCIAL_LINKS.map((s) => (
-              <a key={s.label} href={s.href} className="footer__link footer__link--social">
-                {s.label}
-                <ArrowSquareOut size={12} weight="bold" />
+            {social.map((s) => (
+              <a key={s.label} href={s.href} className="footer__link footer__link--social"
+                target="_blank" rel="noopener noreferrer">
+                {s.label}<ArrowSquareOut size={12} weight="bold" />
               </a>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Brand name */}
       <div className="footer__brand">
-        <span className="footer__brand-name">Grobots</span>
+        <span className="footer__brand-name">{siteData.brand.name}</span>
         <span className="footer__brand-reg">®</span>
-      </div>
-
-      {/* Bottom bar */}
-      <div className="footer__bottom">
-        <span className="footer__copy">©{year} Grobots. All rights reserved.</span>
-        <div className="footer__legal">
-          <a href="#" className="footer__legal-link">Privacy Policy</a>
-          <a href="#" className="footer__legal-link">Terms of Service</a>
-        </div>
       </div>
     </footer>
   );

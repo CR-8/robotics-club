@@ -1,12 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-
-const NAV_LINKS = [
-  { label: 'Index',      href: '/'      },
-  { label: 'Collection', href: '/#'     },
-  { label: 'Projects',   href: '/#'     },
-  { label: 'Team',       href: '/team'  },
-  { label: 'Info',       href: '/#'     },
-];
+import siteData from '../../data/site.json';
 
 export default function Navbar() {
   const { pathname } = useLocation();
@@ -14,18 +7,23 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-logo overflow-hidden">
-        <Link to="/">Grobots</Link>
+        <Link to="/">
+          <img src="/Grobotslogo.png" alt={siteData.brand.name} className="nav-logo__img" />
+        </Link>
       </div>
-
       <div className="nav-links">
-        {NAV_LINKS.map((link) => (
+        {siteData.navbar.links.map((link) => (
           <div key={link.label} className="overflow-hidden">
-            <Link
-              to={link.href}
-              className={pathname === link.href ? 'nav-active' : ''}
-            >
-              {link.label}
-            </Link>
+            {link.href.startsWith('/#') ? (
+              <a href={link.href} className="nav-link">{link.label}</a>
+            ) : (
+              <Link
+                to={link.href}
+                className={`nav-link ${pathname === link.href ? 'nav-active' : ''}`}
+              >
+                {link.label}
+              </Link>
+            )}
           </div>
         ))}
       </div>

@@ -14,6 +14,7 @@ import Hero from './components/home/hero';
 import About from './components/about/about';
 import Projects from './components/projects/projects';
 import Achievements from './components/achievements/achievements';
+import TeamPreview from './components/home/teamPreview';
 import Footer from './components/layout/footer';
 
 gsap.registerPlugin(useGSAP, SplitText, CustomEase, ScrollTrigger);
@@ -171,11 +172,11 @@ export default function App() {
       />
       <Navbar />
       <Hero bgRef={bgRef} />
-      <About />
-      <Projects />
-      <Achievements />
+      <div id="about"><About /></div>
+      <div id="projects"><Projects /></div>
+      <div id="achievements"><Achievements /></div>
+      <TeamPreview />
       <Footer />
-      <Analytics />
       <Analytics />
       <SpeedInsights />
     </main>

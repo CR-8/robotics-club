@@ -30,12 +30,8 @@
       "social": { "linkedin": "#", "github": "#", "instagram": "https://www.instagram.com/__.saarthak.___" }
     },
     {
-      "id": 2,  "name": "Shivansh Pandey",     "role": "Coordinator", "department": "Coordinator", "branch": "EC",     "batch": "2027", "isAlumni": false, "image": "/2027/shivansh.jpg",
+      "id": 2,  "name": "Shivansh Pandey",     "role": "Coordinator", "department": "Coordinator", "branch": "EC",     "batch": "2027", "isAlumni": false, "image": "/2027/shivansh.jpeg",
       "social": { "linkedin": "https://www.linkedin.com/in/shivansh-pandey-93260a2a3", "github": "#", "instagram": "https://www.instagram.com/nxs_shivansh" }
-    },
-    {
-      "id": 4,  "name": "Tanzeemul Haq",       "role": "Coordinator", "department": "Coordinator", "branch": "CSE",    "batch": "2027", "isAlumni": false, "image": "/2027/tanzeem.jpg",
-      "social": { "linkedin": "https://www.linkedin.com/in/tanzeemul-haq-7034a1326", "github": "#", "instagram": "https://www.instagram.com/_na.ruto11" }
     },
     {
       "id": 6,  "name": "Aarushi Khare",       "role": "Coordinator", "department": "Coordinator", "branch": "DS",     "batch": "2027", "isAlumni": false, "image": "/2027/aarushi.jpg",
@@ -62,10 +58,6 @@
       "social": { "linkedin": "https://www.linkedin.com/in/shatakchi-gupta-4320b7295", "github": "#", "instagram": "https://www.instagram.com/uniqueness_2425" }
     },
     {
-      "id": 16, "name": "Aryan Shukla",        "role": "Coordinator", "department": "Coordinator", "branch": "AL",     "batch": "2027", "isAlumni": false, "image": "/2027/aryan.jpg",
-      "social": { "linkedin": "https://www.linkedin.com/in/aryan-shukla-092516283/", "github": "#", "instagram": "https://www.instagram.com/symbiote07" }
-    },
-    {
       "id": 19, "name": "Pratyush Tiwari",     "role": "Coordinator", "department": "Coordinator", "branch": "DS",     "batch": "2027", "isAlumni": false, "image": "/2027/pratyush.jpg",
       "social": { "linkedin": "https://www.linkedin.com/in/pratyush-tiwari-cr8", "github": "#", "instagram": "#" }
     },
@@ -80,10 +72,6 @@
     {
       "id": 23, "name": "Priyanshu Pandey",    "role": "Coordinator", "department": "Coordinator", "branch": "DS",     "batch": "2027", "isAlumni": false, "image": "/2027/priyanshu.jpg",
       "social": { "linkedin": "https://www.linkedin.com/in/priyanshu-pandey-a9b573292/", "github": "#", "instagram": "https://www.instagram.com/impriyan5hu" }
-    },
-    {
-      "id": 24, "name": "Rani Parween",        "role": "Coordinator", "department": "Coordinator", "branch": "CSE",    "batch": "2027", "isAlumni": false, "image": "/2027/rani.jpg",
-      "social": { "linkedin": "https://www.linkedin.com/in/rani-parween-7a6695294", "github": "#", "instagram": "https://www.instagram.com/_hi.nata11" }
     },
     {
       "id": 1,  "name": "Rudra Pratap Singh",  "role": "Alumni",      "department": "Alumni",      "branch": "AI & ML","batch": "2025", "isAlumni": true,  "image": "/2025/rudra.jpg",

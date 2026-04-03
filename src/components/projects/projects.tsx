@@ -34,7 +34,7 @@ export default function Projects() {
     ScrollTrigger.create({
       trigger: section,
       start: 'top top',
-      end: () => `+=${window.innerHeight * (total + 1)}`,
+      end: () => `+=${window.innerHeight * total}`,
       pin: true,
       pinSpacing: true,
       scrub: 1,
