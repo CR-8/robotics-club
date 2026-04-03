@@ -920,8 +920,8 @@ a, p {
 }
 
 .team-card__avatar {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid #fff;
@@ -936,7 +936,6 @@ a, p {
   object-fit: cover;
   display: block;
   border-radius: 50%;
-  filter: grayscale(100%);
 }
 
 .team-card__info {
