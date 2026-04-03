@@ -1,5 +1,5 @@
-import AboutIntro from './AboutIntro';
-import AboutGallery from './AboutGallery';
+import AboutIntro from './aboutIntro';
+import AboutGallery from './aboutGallery';
 
 export default function About() {
   return (

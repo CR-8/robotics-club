@@ -1,0 +1,172 @@
+{
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Cognizance '25",
+      "location": "IIT Roorkee",
+      "year": 2025,
+      "results": [
+        { "event": "Robo War", "category": "15KG", "position": 1 },
+        { "event": "Robo War", "category": "30KG", "position": 2 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Celesta '24",
+      "location": "IIT Patna",
+      "year": 2024,
+      "results": [
+        { "event": "Robo War", "category": "15KG", "position": 1 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Infotsav '24",
+      "location": "IIIT Gwalior",
+      "year": 2024,
+      "results": [
+        { "event": "Robo War",  "category": "30KG", "position": 1 },
+        { "event": "Robo Race", "category": null,   "position": 2 },
+        { "event": "Drone Race","category": null,   "position": 1 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SRMU",
+      "location": "SRMU",
+      "year": 2025,
+      "results": [
+        { "event": "Robo Soccer", "category": null, "position": 1 },
+        { "event": "Robo Sumo",   "category": null, "position": 1 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Utkarsh '25",
+      "location": "BBD",
+      "year": 2025,
+      "results": [
+        { "event": "Robo Soccer", "category": null, "position": 2 },
+        { "event": "Robo War",    "category": null, "position": 1 },
+        { "event": "Robo War",    "category": null, "position": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Prometheo",
+      "location": "IIT Jodhpur",
+      "year": 2024,
+      "results": [
+        { "event": "Robo War", "category": "60KG", "position": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "AKTU Zonals",
+      "location": "AKTU, Uttar Pradesh",
+      "year": 2024,
+      "results": [
+        { "event": "Robo Race",       "category": null,        "position": 1 },
+        { "event": "Robo War",        "category": null,        "position": 1 },
+        { "event": "Robo Sumo",       "category": null,        "position": 1 },
+        { "event": "Drone Tech",      "category": null,        "position": 1 },
+        { "event": "Open Innovation", "category": "InnoQuest", "position": 1 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "AKTU States",
+      "location": "AKTU, Uttar Pradesh",
+      "year": 2024,
+      "results": [
+        { "event": "Overall University", "category": null, "position": 1 },
+        { "event": "Robo Race",          "category": null, "position": 1 },
+        { "event": "Robo War",           "category": null, "position": 1 },
+        { "event": "Debate",             "category": null, "position": 2 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Amiphoria",
+      "location": "Amity University, Lucknow",
+      "year": 2024,
+      "results": [
+        { "event": "Robo War", "category": null, "position": 1 },
+        { "event": "Robo War", "category": null, "position": 2 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "SRMS Bareilly",
+      "location": "SRMS, Bareilly",
+      "year": 2024,
+      "results": [
+        { "event": "Robo War",    "category": null, "position": 1 },
+        { "event": "Robo Soccer", "category": null, "position": 1 },
+        { "event": "Robo War",    "category": null, "position": 2 },
+        { "event": "Robo Soccer", "category": null, "position": 2 },
+        { "event": "Robo Race",   "category": null, "position": 2 },
+        { "event": "Pick & Place","category": null, "position": 2 },
+        { "event": "Line Follower","category": null,"position": 2 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "BML Munjal",
+      "location": "BML Munjal, Haryana",
+      "year": 2024,
+      "results": [
+        { "event": "Robo Soccer", "category": null, "position": 1 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "BotFiesta",
+      "location": "MUIT, Lucknow",
+      "year": 2024,
+      "results": [
+        { "event": "Robo Soccer", "category": null, "position": 2 }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "IITM Gwalior",
+      "location": "IITM Gwalior",
+      "year": 2024,
+      "results": [
+        { "event": "Robo War",   "category": null,   "position": 1 },
+        { "event": "Robo War",   "category": "Mini", "position": 2 },
+        { "event": "Drone Race", "category": null,   "position": 1 },
+        { "event": "Robo Race",  "category": null,   "position": 1 }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "RGIPT Amethi",
+      "location": "RGIPT, Amethi",
+      "year": 2024,
+      "results": [
+        { "event": "Robo Soccer", "category": null, "position": 1 },
+        { "event": "Robo Soccer", "category": null, "position": 2 }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "TechKirti",
+      "location": "IIT Kanpur",
+      "year": 2024,
+      "results": [
+        { "event": "Robo Soccer", "category": null, "position": 1 }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "NIT Hamirpur",
+      "location": "NIT Hamirpur",
+      "year": 2024,
+      "results": [
+        { "event": "Robo Soccer", "category": null, "position": 1 }
+      ]
+    }
+  ]
+}

@@ -5,11 +5,16 @@ import { SplitText } from 'gsap/SplitText';
 import { CustomEase } from 'gsap/CustomEase';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import Preloader from './components/layout/preloader';
 import Navbar from './components/layout/navbar';
 import Hero from './components/home/hero';
-import About from './components/about/About';
+import About from './components/about/about';
+import Projects from './components/projects/projects';
+import Achievements from './components/achievements/achievements';
+import Footer from './components/layout/footer';
 
 gsap.registerPlugin(useGSAP, SplitText, CustomEase, ScrollTrigger);
 
@@ -167,6 +172,12 @@ export default function App() {
       <Navbar />
       <Hero bgRef={bgRef} />
       <About />
+      <Projects />
+      <Achievements />
+      <Footer />
+      <Analytics />
+      <Analytics />
+      <SpeedInsights />
     </main>
   );
 }

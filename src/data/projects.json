@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "tag": "Autonomous Navigation",
+      "title": "FieldBot Alpha",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "image": "https://picsum.photos/seed/proj1/800/600",
+      "color": "#3d2fa9"
+    },
+    {
+      "id": 2,
+      "tag": "Precision Spraying",
+      "title": "AeroSpray X1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "image": "https://picsum.photos/seed/proj2/800/600",
+      "color": "#ff7722"
+    },
+    {
+      "id": 3,
+      "tag": "Soil Intelligence",
+      "title": "TerraProbe",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "image": "https://picsum.photos/seed/proj3/800/600",
+      "color": "#c0392b"
+    },
+    {
+      "id": 4,
+      "tag": "Harvest Automation",
+      "title": "PickBot Pro",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "image": "https://picsum.photos/seed/proj4/800/600",
+      "color": "#1a7a4a"
+    },
+    {
+      "id": 5,
+      "tag": "Fleet Management",
+      "title": "HiveOS",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "image": "https://picsum.photos/seed/proj5/800/600",
+      "color": "#6b3fa0"
+    }
+  ]
+}
