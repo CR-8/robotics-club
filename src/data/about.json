@@ -1,0 +1,42 @@
+{
+  "intro": {
+    "heading": "We build machines that understand the land — precise, autonomous, and built to grow alongside the farmers who feed the world.",
+    "subheading": "Grobots"
+  },
+  "gallery": {
+    "cardCount": 16,
+    "imageWidth": 400,
+    "imageHeight": 500,
+    "headings": [
+      "Precision engineered for the fields of tomorrow.",
+      "Every joint, every sensor — built to last.",
+      "From seed to harvest, we move with you.",
+      "Autonomy that respects the land."
+    ],
+    "images": [
+      { "src": "https://picsum.photos/seed/grobot1/400/500", "alt": "Grobot in field" },
+      { "src": "https://picsum.photos/seed/grobot2/400/500", "alt": "Grobot sensor detail" },
+      { "src": "https://picsum.photos/seed/grobot3/400/500", "alt": "Grobot arm mechanism" },
+      { "src": "https://picsum.photos/seed/grobot4/400/500", "alt": "Grobot at sunrise" },
+      { "src": "https://picsum.photos/seed/grobot5/400/500", "alt": "Grobot terrain navigation" },
+      { "src": "https://picsum.photos/seed/grobot6/400/500", "alt": "Grobot close-up" },
+      { "src": "https://picsum.photos/seed/grobot7/400/500", "alt": "Grobot harvesting" },
+      { "src": "https://picsum.photos/seed/grobot8/400/500", "alt": "Grobot in rain" },
+      { "src": "https://picsum.photos/seed/grobot9/400/500", "alt": "Grobot chassis" },
+      { "src": "https://picsum.photos/seed/grobot10/400/500", "alt": "Grobot wheels" },
+      { "src": "https://picsum.photos/seed/grobot11/400/500", "alt": "Grobot night mode" },
+      { "src": "https://picsum.photos/seed/grobot12/400/500", "alt": "Grobot fleet" },
+      { "src": "https://picsum.photos/seed/grobot13/400/500", "alt": "Grobot soil scan" },
+      { "src": "https://picsum.photos/seed/grobot14/400/500", "alt": "Grobot planting" },
+      { "src": "https://picsum.photos/seed/grobot15/400/500", "alt": "Grobot maintenance" },
+      { "src": "https://picsum.photos/seed/grobot16/400/500", "alt": "Grobot overview" }
+    ]
+  },
+  "outro": {
+    "heading": "The future of farming is already here.",
+    "cta": {
+      "label": "Explore the collection",
+      "href": "#"
+    }
+  }
+}

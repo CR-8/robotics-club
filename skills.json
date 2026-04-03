@@ -1,0 +1,93 @@
+{
+  "detectedIDEs": [
+    "kiro",
+    "vscode"
+  ],
+  "installedSkills": [
+    {
+      "name": "frontend-design",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/frontend-design/skill.md",
+      "installedAt": "2026-04-02T15:41:29.337Z"
+    },
+    {
+      "name": "cozy-ui",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/cozy-ui/skill.md",
+      "installedAt": "2026-04-02T15:41:30.188Z"
+    },
+    {
+      "name": "premium-ui",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/premium-ui/skill.md",
+      "installedAt": "2026-04-02T15:41:30.611Z"
+    },
+    {
+      "name": "ui-theme",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/ui-theme/skill.md",
+      "installedAt": "2026-04-02T15:41:30.649Z"
+    },
+    {
+      "name": "theme-from-guide",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/theme-from-guide/skill.md",
+      "installedAt": "2026-04-02T15:41:30.981Z"
+    },
+    {
+      "name": "3d-frontend",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/3d-frontend/skill.md",
+      "installedAt": "2026-04-02T15:41:32.647Z"
+    },
+    {
+      "name": "vector-design",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/vector-design/skill.md",
+      "installedAt": "2026-04-02T15:41:33.005Z"
+    },
+    {
+      "name": "immersive-storytelling",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/immersive-storytelling/skill.md",
+      "installedAt": "2026-04-02T15:41:33.474Z"
+    },
+    {
+      "name": "frontend-patterns",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/frontend-patterns/skill.md",
+      "installedAt": "2026-04-02T15:41:34.653Z"
+    },
+    {
+      "name": "google-coding-practices",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/google-coding-practices/skill.md",
+      "installedAt": "2026-04-02T15:41:40.992Z"
+    },
+    {
+      "name": "code-review",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/code-review/skill.md",
+      "installedAt": "2026-04-02T15:41:41.511Z"
+    },
+    {
+      "name": "git-workflow",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/git-workflow/skill.md",
+      "installedAt": "2026-04-02T15:41:42.203Z"
+    },
+    {
+      "name": "context-provider",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/context-provider/skill.md",
+      "installedAt": "2026-04-02T15:42:10.373Z"
+    },
+    {
+      "name": "tailwind-shadcn",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/tailwind-shadcn/skill.md",
+      "installedAt": "2026-04-02T15:42:15.381Z"
+    },
+    {
+      "name": "typescript-strict",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/typescript-strict/skill.md",
+      "installedAt": "2026-04-02T15:42:17.282Z"
+    },
+    {
+      "name": "security-practices",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/security-practices/skill.md",
+      "installedAt": "2026-04-02T15:42:25.801Z"
+    },
+    {
+      "name": "api-design",
+      "sourceUrl": "https://raw.githubusercontent.com/CR-8/ruledrop-community/main/skills/api-design/skill.md",
+      "installedAt": "2026-04-02T15:42:31.062Z"
+    }
+  ]
+}
