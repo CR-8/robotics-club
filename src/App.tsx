@@ -33,7 +33,15 @@ export default function App() {
     lenis.on('scroll', ScrollTrigger.update);
     gsap.ticker.add((time) => lenis.raf(time * 1000));
     gsap.ticker.lagSmoothing(0);
+
+    // Fallback: force unlock scroll after 5s in case timeline doesn't fire on mobile
+    const fallback = setTimeout(() => {
+      document.body.style.overflow = '';
+      ScrollTrigger.refresh();
+    }, 5000);
+
     return () => {
+      clearTimeout(fallback);
       lenis.destroy();
     };
   }, []);
