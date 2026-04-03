@@ -2,43 +2,43 @@
   "projects": [
     {
       "id": 1,
-      "tag": "Autonomous Navigation",
-      "title": "FieldBot Alpha",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "tag": "Combat Robotics",
+      "title": "Kaal",
+      "description": "Our 30KG combat beast. Titanium-reinforced wedge, brushless drive, and a weapon system that has ended matches in under 10 seconds. Kaal doesn't fight — it terminates.",
       "image": "https://picsum.photos/seed/proj1/800/600",
-      "color": "#3d2fa9"
+      "color": "#1a1a2e"
     },
     {
       "id": 2,
-      "tag": "Precision Spraying",
-      "title": "AeroSpray X1",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "tag": "Autonomous Racing",
+      "title": "Vega",
+      "description": "Zero to full throttle in 0.4 seconds. Vega is our line-following and autonomous racing platform — PID-tuned to perfection, built to lap the competition before they blink.",
       "image": "https://picsum.photos/seed/proj2/800/600",
-      "color": "#ff7722"
+      "color": "#16213e"
     },
     {
       "id": 3,
-      "tag": "Soil Intelligence",
-      "title": "TerraProbe",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "tag": "Aerial Systems",
+      "title": "Talon",
+      "description": "A racing drone that hits 80 km/h on a straight. Talon was built for speed, tuned for precision, and has taken first place in drone racing events across three states.",
       "image": "https://picsum.photos/seed/proj3/800/600",
-      "color": "#c0392b"
+      "color": "#0f3460"
     },
     {
       "id": 4,
-      "tag": "Harvest Automation",
-      "title": "PickBot Pro",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "tag": "Robo Soccer",
+      "title": "Striker",
+      "description": "Fast, low, and impossible to stop. Striker is our robo-soccer platform — omnidirectional drive, real-time vision, and a shot that has scored in arenas from Lucknow to Kanpur.",
       "image": "https://picsum.photos/seed/proj4/800/600",
-      "color": "#1a7a4a"
+      "color": "#533483"
     },
     {
       "id": 5,
-      "tag": "Fleet Management",
-      "title": "HiveOS",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus facere, totam nulla, magni repellat velit nobis nihil dolorem saepe aspernatur esse dignissimos minima quia. Possimus sint voluptatum, cupiditate et minima, quia iure dolor, ex eveniet vel ducimus impedit deserunt sit asperiores molestiae enim excepturi culpa perspiciatis exercitationem! Nulla officia ratione ab laboriosam culpa illo recusandae consequatur vero suscipit error.",
+      "tag": "Innovation",
+      "title": "NovaMind",
+      "description": "Our open-innovation flagship. NovaMind is an AI-assisted robotic arm that won InnoQuest at AKTU Zonals — designed to solve real-world problems, not just win trophies.",
       "image": "https://picsum.photos/seed/proj5/800/600",
-      "color": "#6b3fa0"
+      "color": "#2b2d42"
     }
   ]
 }

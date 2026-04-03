@@ -44,8 +44,8 @@ export default function TeamPage() {
         <header className="team-header">
           <h1 className="team-header__title">Meet Our Team</h1>
           <p className="team-header__sub">
-            Elite robotics engineers, AI specialists, and technology architects
-            pushing the boundaries of what's possible.
+            The engineers, builders, and tinkerers behind every bot that's ever
+            entered an arena under the Grobots banner. No passengers — everyone builds.
           </p>
         </header>
 

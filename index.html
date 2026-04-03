@@ -5,10 +5,23 @@
     <link rel="icon" type="image/png" href="/Grobotslogo.png" />
     <link rel="apple-touch-icon" href="/Grobotslogo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grobots</title>
+    <title>Grobots — Where Gears Flex More Than Muscles</title>
+    <meta name="description" content="Grobots is a student robotics club that builds combat bots, racing drones, and autonomous systems. Where adrenaline never stops." />
+
+    <!-- Preload Unicorn Studio SDK — fetched immediately, not after JS parses -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.1.6/dist/unicornStudio.umd.js" as="script" crossorigin />
+
+    <!-- Preload critical fonts — eliminates FOUT on hero title -->
+    <link rel="preload" href="/fonts/LK_Ternima-Regular.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- DNS prefetch for external origins used at runtime -->
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <!-- Instrument Serif loaded inline — eliminates Google Fonts round-trip -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" />
   </head>
   <body>
     <div id="root"></div>

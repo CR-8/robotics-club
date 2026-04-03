@@ -17,7 +17,7 @@ export default function Hero({ bgRef }: HeroProps) {
           sdkUrl={unicornSdkUrl}
           width="100%"
           height="100%"
-          lazyLoad={false}
+          lazyLoad={true}
           dpi={1.5}
           fps={60}
           scale={1}

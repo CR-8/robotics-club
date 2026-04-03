@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import siteData from '../../data/site.json';
 
 export default function Footer() {
-  const year = new Date().getFullYear();
   const { phone, email, links, social } = siteData.footer;
 
   return (

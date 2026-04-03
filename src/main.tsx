@@ -5,8 +5,8 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import './index.css'
 import App from './App.tsx'
-import TeamPage from './pages/TeamPage.tsx'
-import AdminPage from './pages/AdminPage.tsx'
+import TeamPage from './pages/teamPage.tsx'
+import AdminPage from './pages/adminPage.tsx'
 
 gsap.registerPlugin(ScrollTrigger)
 
