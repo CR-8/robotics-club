@@ -118,12 +118,15 @@ a, p {
   clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
   will-change: clip-path;
   z-index: -1;
+  /* Prevent WebGL canvas from capturing touch events and blocking scroll */
+  pointer-events: none;
 }
 
 .hero-bg > * {
   width: 100% !important;
   height: 100% !important;
   display: block;
+  pointer-events: none !important;
 }
 
 .header {
@@ -1346,15 +1349,20 @@ a, p {
 @media (max-width: 768px) {
 
   /* Navbar */
-  .navbar {
-    padding: 1.25rem 1.25rem;
-  }
-  .nav-links {
-    flex-direction: row;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
+ .navbar {
+  position: fixed;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 10;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
   .nav-links a, .nav-links .nav-link {
     font-size: 0.72rem;
   }
@@ -1532,7 +1540,11 @@ a, p {
   .team-grid {
     grid-template-columns: 1fr;
   }
+  /* Keep nav links visible on small screens — just smaller */
   .nav-links {
-    display: none; /* hide nav links on very small screens — hamburger would go here */
+    gap: 0.6rem;
+  }
+  .nav-links a, .nav-links .nav-link {
+    font-size: 0.65rem;
   }
 }

@@ -7,6 +7,9 @@ interface HeroProps {
   bgRef: RefObject<HTMLDivElement | null>;
 }
 
+// Lower DPI and FPS on mobile to reduce GPU load
+const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+
 export default function Hero({ bgRef }: HeroProps) {
   const { title, unicornProjectId, unicornSdkUrl } = siteData.hero;
   return (
@@ -18,8 +21,8 @@ export default function Hero({ bgRef }: HeroProps) {
           width="100%"
           height="100%"
           lazyLoad={true}
-          dpi={1.5}
-          fps={60}
+          dpi={isMobile ? 1 : 1.5}
+          fps={isMobile ? 30 : 60}
           scale={1}
         />
       </div>
